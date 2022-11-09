@@ -1,4 +1,4 @@
-package moomoo.springframework.moomoopetclinic.model;
+package moomoo.springframework.moomooPetClinic.model;
 
 import java.time.LocalDate;
 

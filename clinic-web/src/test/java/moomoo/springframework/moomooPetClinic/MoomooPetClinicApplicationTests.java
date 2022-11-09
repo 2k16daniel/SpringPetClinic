@@ -1,4 +1,4 @@
-package moomoo.springframework.moomoopetclinic;
+package moomoo.springframework.moomooPetClinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
