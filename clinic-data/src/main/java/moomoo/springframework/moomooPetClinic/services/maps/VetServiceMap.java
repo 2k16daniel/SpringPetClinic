@@ -29,4 +29,5 @@ public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudS
     public void delete(Vet object) {
         super.delete(object);
     }
+
 }
