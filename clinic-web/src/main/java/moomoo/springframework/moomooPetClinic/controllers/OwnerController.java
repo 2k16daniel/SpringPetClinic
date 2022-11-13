@@ -3,11 +3,12 @@ package moomoo.springframework.moomooPetClinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@RequestMapping("/Owner")
 @Controller
-public class IndexController {
+public class OwnerController {
 
-    @RequestMapping({"","/","index"})
-    public String Index(){
-        return "index";
+    @RequestMapping({"","/index","/index.html"})
+    public String ownerIndexPage(){
+        return  "/owners/index";
     }
 }
